@@ -11,17 +11,17 @@
  */
 
 /** MySQL database username */
-define( 'YOURLS_DB_USER', 'your db user name' );
+define( 'YOURLS_DB_USER', 'sht' );
 
 /** MySQL database password */
-define( 'YOURLS_DB_PASS', 'your db password' );
+define( 'YOURLS_DB_PASS', 'Qt2g~9h?379d' );
 
 /** The name of the database for YOURLS */
-define( 'YOURLS_DB_NAME', 'yourls' );
+define( 'YOURLS_DB_NAME', 'sht' );
 
 /** MySQL hostname.
  ** If using a non standard port, specify it like 'hostname:port', eg. 'localhost:9999' or '127.0.0.1:666' */
-define( 'YOURLS_DB_HOST', 'localhost' );
+define( 'YOURLS_DB_HOST', 'den1.mysql6.gear.host' );
 
 /** MySQL tables prefix */
 define( 'YOURLS_DB_PREFIX', 'yourls_' );
@@ -32,7 +32,7 @@ define( 'YOURLS_DB_PREFIX', 'yourls_' );
 
 /** YOURLS installation URL -- all lowercase, no trailing slash at the end.
  ** If you define it to "http://sho.rt", don't use "http://www.sho.rt" in your browser (and vice-versa) */
-define( 'YOURLS_SITE', 'http://your-own-domain-here.com' );
+define( 'YOURLS_SITE', 'http://sht.gearhostpreview.com' );
 
 /** Server timezone GMT offset */
 define( 'YOURLS_HOURS_OFFSET', 0 ); 
@@ -41,7 +41,7 @@ define( 'YOURLS_HOURS_OFFSET', 0 );
  ** Change this setting to use a translation file for your language, instead of the default English.
  ** That translation file (a .mo file) must be installed in the user/language directory.
  ** See http://yourls.org/translations for more information */
-define( 'YOURLS_LANG', '' ); 
+define( 'YOURLS_LANG', 'en' ); 
 
 /** Allow multiple short URLs for a same long URL
  ** Set to true to have only one pair of shortURL/longURL (default YOURLS behavior)
@@ -60,7 +60,7 @@ define( 'YOURLS_COOKIEKEY', 'modify this text with something random' );
  ** YOURLS will auto encrypt plain text passwords in this file
  ** Read http://yourls.org/userpassword for more information */
 $yourls_user_passwords = array(
-	'username' => 'password',
+	'admin' => 'sandi678',
 	// 'username2' => 'password2',
 	// You can have one or more 'login'=>'password' lines
 	);
@@ -74,7 +74,7 @@ define( 'YOURLS_DEBUG', false );
  */
 
 /** URL shortening method: 36 or 62 */
-define( 'YOURLS_URL_CONVERT', 36 );
+define( 'YOURLS_URL_CONVERT', 62 );
 /*
  * 36: generates all lowercase keywords (ie: 13jkm)
  * 62: generates mixed case keywords (ie: 13jKm or 13JKm)
